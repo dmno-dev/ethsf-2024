@@ -1,0 +1,65 @@
+{
+  "name": "@dmno/web3-secrets-plugin",
+  "version": "0.0.0",
+  "description": "dmno plugin store secrets using a web3 managed keypair",
+  "author": "dmno-dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmno-dev/ethsf-2024.git",
+    "directory": "packages/plugins/web3-secrets-plugin"
+  },
+  "bugs": "https://github.com/dmno-dev/ethsf-2024/issues",
+  "homepage": "https://dmno.dev/docs/plugins/1password",
+  "keywords": [
+    "dmno",
+    "web3",
+    "ethereum",
+    "config",
+    "env vars",
+    "environment variables",
+    "secrets",
+    "dmno-plugin"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "ts-src": "./src/index.ts",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "build:ifnodist": "[ -d \"./dist\" ] && echo 'dist exists' || pnpm build",
+    "dev": "pnpm run build --watch",
+    "lint": "eslint src --ext .ts,.cjs,.mjs",
+    "lint:fix": "pnpm run lint --fix",
+    "runtest": "dmno run -- pnpm exec tsx src/test.ts"
+  },
+  "devDependencies": {
+    "@dmno/eslint-config": "link:../../../dmno-reactivity/packages/eslint-config",
+    "@dmno/tsconfig": "link:../../../dmno-reactivity/packages/tsconfig",
+    "@types/node": "catalog:",
+    "dmno": "link:../../../dmno-reactivity/packages/core",
+    "tsup": "catalog:",
+    "tsx": "^4.19.1",
+    "typescript": "catalog:"
+  },
+  "dependencies": {
+    "@ethsign/sp-sdk": "^0.7.5",
+    "@lit-protocol/auth-helpers": "^6.11.0",
+    "@lit-protocol/constants": "^6.11.0",
+    "@lit-protocol/contracts-sdk": "^6.11.0",
+    "@lit-protocol/lit-node-client-nodejs": "^6.11.0",
+    "ethers": "v5",
+    "ipfs-only-hash": "^4.0.0",
+    "kleur": "^4.1.5"
+  },
+  "peerDependencies": {
+    "dmno": "^0"
+  }
+}
