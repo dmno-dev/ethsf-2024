@@ -8,8 +8,12 @@
   "githubOrg": "dmno-dev",
   "items": {
     "root!SOME_SECRET": {
-      "encryptedValue": "mAYeO8M2xesn7WgMGfRv0azNmmgVWZ5dRUb0Ye6c89kDVUq123ey/MOzaVhR1/7uoEDN2Jl0bNSUmmmKnR70yO7ewJZmkqeKeu7S45rmpZwgJlDItBbLP50dQnSUah/G8JiDsOswayOKDbzydZLTfQgC:::74e4114e25c4db2e60b01d05de6814776d9fb9346eab6b6018bd595dc037232b",
-      "updatedAt": "2024-10-20T12:05:24.372Z"
+      "encryptedValue": "jxlAG2WfMU78WXbkbsO6ric56WRYP+FbIL/mjsbDwCWxAXYtPrAn8TCU52bwUCeCg65ZiUVCOVMJbdGqWvZbnkZ1eIioUfNv2KlViNTij4EgdO9kHGeWYt3Q1W+IO9DGlSdQ9wK3vbe5+BPWKVcdlLsC:::a112f60ab2a27c2a986e4351c8f9c7f8a55fac21d2fd21f2c6c400fe08449177",
+      "updatedAt": "2024-10-20T13:40:30.063Z"
+    },
+    "root!SWITCHED_VAL#production": {
+      "encryptedValue": "o+Tu5xbmv2gCsEbgroPLnmF6dG8wU0Jqy2lYsgFdhhuAJofwCiWf34shn8a3kCD2o81wV7aBANWdjHMVsnFfWoJil9aZpZoJoqYfvD88NwwgCBCQo/+KeT9cZjDdHdjoY0GtW6Ry+ShceOAJvrHfxHEC:::baf698c16450117dbe6aee29419e1553d1c39cce63a080adfedd229a1d9c9391",
+      "updatedAt": "2024-10-20T13:40:43.335Z"
     }
   }
 }

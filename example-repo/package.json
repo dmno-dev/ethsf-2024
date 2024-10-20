@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dmno": "0.0.26",
+    "dmno": "link:../../dmno-reactivity/packages/core",
     "@dmno/web3-secrets-plugin": "link:../packages/web3-secrets-plugin"
   }
 }
