@@ -14,8 +14,8 @@ import {
   LitPKPResource,
 } from "@lit-protocol/auth-helpers";
 
-import { checkGithubAccessCode, decryptLitActionCode } from './lit-actions';
-import { SIGN_ABI } from './sign-abi';
+import { checkGithubAccessCode, decryptLitActionCode } from './lib/lit-actions';
+import { SIGN_ABI } from './lib/sign-abi';
 
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));

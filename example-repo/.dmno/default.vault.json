@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "pkpInfo": {
+    "tokenId": "0x88d2d6809951d11945ababba7e90425f1b9851b88e5e030941fb302a3f7504bd",
+    "publicKey": "044b26e4bec1a09971e9952b9572c93f4b56c0fe5ec9097c1a624afb5840f65fcc01e33ed61b3f4497f69a952432ecc91c6d588fcc5ddf12417adae3f947c7c085",
+    "ethAddress": "0xf5e714e290CfaB5498e5664Cd9cDA962BF7a567f"
+  },
+  "githubOrg": "dmno-dev",
+  "items": {
+    "root!SOME_SECRET": {
+      "encryptedValue": "mAYeO8M2xesn7WgMGfRv0azNmmgVWZ5dRUb0Ye6c89kDVUq123ey/MOzaVhR1/7uoEDN2Jl0bNSUmmmKnR70yO7ewJZmkqeKeu7S45rmpZwgJlDItBbLP50dQnSUah/G8JiDsOswayOKDbzydZLTfQgC:::74e4114e25c4db2e60b01d05de6814776d9fb9346eab6b6018bd595dc037232b",
+      "updatedAt": "2024-10-20T12:05:24.372Z"
+    }
+  }
+}

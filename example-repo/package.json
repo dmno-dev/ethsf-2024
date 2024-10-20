@@ -1,0 +1,16 @@
+{
+  "name": "example-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dmno": "0.0.26",
+    "@dmno/web3-secrets-plugin": "link:../packages/web3-secrets-plugin"
+  }
+}

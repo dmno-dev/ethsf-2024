@@ -32,6 +32,9 @@ async function checkGithubAccess() {
   // const pkpEthAddress = '0x9Beb8d651076a811CdF3A5DFf088dF94A22F436A';
 
   // githubOrg: string, githubAccessToken: string, teamId: string
+
+  console.log('checking GH access');
+
   const GIHUB_GQL_URL = 'https://api.github.com/graphql';
   const profileReq = await fetch('https://api.github.com/user', {
     headers: {
@@ -42,6 +45,9 @@ async function checkGithubAccess() {
   })
   const profileJson: any = await profileReq.json();
   const { login: githubUsername } = profileJson;
+
+  console.log({ githubOrg, githubUsername });
+  
 
   const gqlQuery = `{
     organization(login: "${githubOrg}") {
@@ -67,6 +73,8 @@ async function checkGithubAccess() {
   });
   const teamsResponseJson: any = await teamsResponse.json();
   const userTeamIds = teamsResponseJson.data.organization.teams.edges.map((e) => e.node.id);
+
+  console.log({ userTeamIds });
 
   return LitActions.setResponse({
     response: JSON.stringify({
