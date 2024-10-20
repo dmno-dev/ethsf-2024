@@ -1,0 +1,12 @@
+{
+  "name": "@dmno/web3-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "DMNO monorepo of web3-related tools and plugins",
+  "scripts": {},
+  "author": "Theo Ephraim <theo@dmno.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "dmno": "^0.0.26"
+  }
+}
