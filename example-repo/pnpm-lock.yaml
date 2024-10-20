@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@dmno/web3-data-types':
+        specifier: link:../packages/web3-data-types
+        version: link:../packages/web3-data-types
       '@dmno/web3-secrets-plugin':
         specifier: link:../packages/web3-secrets-plugin
         version: link:../packages/web3-secrets-plugin

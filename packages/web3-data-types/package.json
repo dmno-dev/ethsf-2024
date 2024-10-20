@@ -1,7 +1,7 @@
 {
-  "name": "@dmno/web3-secrets-plugin",
+  "name": "@dmno/web3-data-types",
   "version": "0.0.0",
-  "description": "dmno plugin store secrets using a web3 managed keypair",
+  "description": "dmno plugin with web3 related data types",
   "author": "dmno-dev",
   "license": "MIT",
   "repository": {
@@ -41,7 +41,6 @@
     "runtest": "dmno run -- pnpm exec tsx src/pkp-test.ts"
   },
   "devDependencies": {
-    "@dmno/web3-data-types": "workspace:*",
     "@dmno/eslint-config": "link:../../../dmno-reactivity/packages/eslint-config",
     "@dmno/tsconfig": "link:../../../dmno-reactivity/packages/tsconfig",
     "@types/lodash-es": "catalog:",
@@ -58,11 +57,12 @@
     "@lit-protocol/constants": "^6.11.0",
     "@lit-protocol/contracts-sdk": "^6.11.0",
     "@lit-protocol/lit-node-client-nodejs": "^6.11.0",
-    "ethers": "v5",
+    "ethers": "^5.7.2",
     "ipfs-only-hash": "^4.0.0",
     "jsonc-parser": "^3.3.1",
     "kleur": "^4.1.5",
-    "lodash-es": "catalog:"
+    "lodash-es": "catalog:",
+    "web3": "^4.13.0"
   },
   "peerDependencies": {
     "dmno": "^0"

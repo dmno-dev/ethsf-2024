@@ -1,5 +1,6 @@
 import { DmnoBaseTypes, createDmnoDataType } from 'dmno';
 
+// TODO: move to core - with the other github stuff...
 const GithubPersonalAccessToken = createDmnoDataType({
   typeLabel: 'github/personal-access-token',
   extends: DmnoBaseTypes.string({
