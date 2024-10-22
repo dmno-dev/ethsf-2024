@@ -1,9 +1,10 @@
 
-# @dmno/web3-secrets-plugin [![npm](https://img.shields.io/npm/v/@dmno/web3-secrets-plugin)](https://www.npmjs.com/package/@dmno/web3-secrets-plugin)
+# @dmno/web3-secrets-plugin
 
-Provides functionality to encrypt and store secrets committed to your repo for the @dmno config engine
+Provides functionality to encrypt and store secrets in the [dmno config engine](https://dmno.dev) using a Programmable Key Pair (PKP) managed by [Lit Protocol](https://www.litprotocol.com/) with decryption gated via Github team membership.
 
-This plugins uses a keypair that lives on the blockchain, managed by [Lit Protocol](https://www.litprotocol.com/) with access gated via Github team membership.
+> _This is a hackathon project and not yet ready for production use!_<br/>
+> _Check the [DMNO](https://dmno.dev) docs for the latest updates and production ready plugins!_
 
 ## Plugin
 
@@ -46,9 +47,11 @@ export default defineDmnoService({
 #### Github setup
 
 **Teams**
+
 Vault access will use github "teams" to control access. So you'll need to set up teams accordingly. Usually this would at least look like a "Superadmins" team (who can access everything) and a "Developers" team that can access everything else. You may already have teams like this set up!
 
 **Access tokens**
+
 Each developer (including you!) will need a "Personal access token" that they will use to prove their identity, which lets them decrypt the secrets in the vault.
 
 **You will need to do this right away to set up the vault!**
@@ -65,10 +68,11 @@ Each developer (including you!) will need a "Personal access token" that they wi
 
 While setting up the vault, the plugin will add this token to your local `.env.local` file. Other devs just trying to use secrets can just add it to their's directly.
 
-**Crypto wallet**
+#### Crypto wallet
+
 You will need a crypto wallet that has a tiny bit of ETH to set up the PKP.
 
-Currently it is using the [Optimism Sepolia](https://sepolia-optimism.etherscan.io/) network.
+Currently it is using the [Optimism Sepolia](https://sepolia-optimism.etherscan.io/) test-network.
 
 The setup command will ask for your wallet private key - it will be used only to set up the PKP and then discarded. Costs are minimal...
 
@@ -100,7 +104,7 @@ Items in your schema should be marked as living in the vault using the `vaultIns
 ```
 
 
-## Editing items in the vault
+### Editing items in the vault
 
 In most cases, you should use the upsert and you'll be able to select from all items in your schema that are marked as living in this vault.
 - `pnpm exec dmno plugin -p <vault> -- upsert`

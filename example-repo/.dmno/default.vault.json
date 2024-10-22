@@ -1,19 +1,15 @@
 {
   "version": "0.0.1",
   "pkpInfo": {
-    "tokenId": "0x88d2d6809951d11945ababba7e90425f1b9851b88e5e030941fb302a3f7504bd",
-    "publicKey": "044b26e4bec1a09971e9952b9572c93f4b56c0fe5ec9097c1a624afb5840f65fcc01e33ed61b3f4497f69a952432ecc91c6d588fcc5ddf12417adae3f947c7c085",
-    "ethAddress": "0xf5e714e290CfaB5498e5664Cd9cDA962BF7a567f"
+    "tokenId": "0xcda7cfeec9b2ae1d58fc726e24928b83a48f9bc0f3133acbc345dd10b59f7dc5",
+    "publicKey": "042608b0d3929359bf494d05dc5a316b1b0fe8a7a46fcda2d4ee3517169096a7726bd5fe29dd561417774f241e2514aded625838cc276fc9b9fd86cd1f39a07476",
+    "ethAddress": "0xCA82efDe9713ab266bbe6C2A636522F672f60047"
   },
   "githubOrg": "dmno-dev",
   "items": {
     "root!SOME_SECRET": {
-      "encryptedValue": "jxlAG2WfMU78WXbkbsO6ric56WRYP+FbIL/mjsbDwCWxAXYtPrAn8TCU52bwUCeCg65ZiUVCOVMJbdGqWvZbnkZ1eIioUfNv2KlViNTij4EgdO9kHGeWYt3Q1W+IO9DGlSdQ9wK3vbe5+BPWKVcdlLsC:::a112f60ab2a27c2a986e4351c8f9c7f8a55fac21d2fd21f2c6c400fe08449177",
-      "updatedAt": "2024-10-20T13:40:30.063Z"
-    },
-    "root!SWITCHED_VAL#production": {
-      "encryptedValue": "o+Tu5xbmv2gCsEbgroPLnmF6dG8wU0Jqy2lYsgFdhhuAJofwCiWf34shn8a3kCD2o81wV7aBANWdjHMVsnFfWoJil9aZpZoJoqYfvD88NwwgCBCQo/+KeT9cZjDdHdjoY0GtW6Ry+ShceOAJvrHfxHEC:::baf698c16450117dbe6aee29419e1553d1c39cce63a080adfedd229a1d9c9391",
-      "updatedAt": "2024-10-20T13:40:43.335Z"
+      "encryptedValue": "todteEf74tiFz7ZsvEANPZQyxUiDY+XXI6AIHtQ/coGAEQmFEoF7aYwi624rfP5WlMH7/ma6Bqf6gEssQlhtvHZZrjivynlp2/vL9kwjs7QgjRu1w43qNXODTPFTj0CrlDHkb+sYAQAxOlfk/8OZjNAC:::536bc19262e2e98bdcad6b4269c640e887d20609e13e1c62f85f7b79f62f7a8f",
+      "updatedAt": "2024-10-20T19:01:29.943Z"
     }
   }
 }
